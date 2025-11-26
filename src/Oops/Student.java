@@ -33,6 +33,7 @@ public class Student {
 	{
 		Student s1=new Student();
 		s1.sendToSchool();
+		
 	}
 	
 
