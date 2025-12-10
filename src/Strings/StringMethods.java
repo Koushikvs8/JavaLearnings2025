@@ -14,7 +14,7 @@ public class StringMethods {
 		System.out.println("the string :"+name.trim());
 		System.out.println("the string :"+name.equals("we "));
 		System.out.println("the string :"+name.contains("here"));
-		System.out.println("the string :"+name.indexOf("here"));
+		System.out.println("the string :"+name.indexOf("ere"));
 		System.out.println("the string :"+name.substring(4)+name.substring(0,5));
 		System.out.println("the string :"+name.replace("revalution", "gym"));
 		System.out.println("the string :"+name.join("/", "gym", "go"));

@@ -10,7 +10,7 @@ public class binarySearch {
 		int[] a = {1, 32, 4, 56, 67, 89, 100, 3445};
 		Arrays.sort(a); // Must be sorted
 
-		int target = 3445;
+		int target = 32;
 		int start = 0;
 		int end = a.length - 1;
 		boolean found = false;
