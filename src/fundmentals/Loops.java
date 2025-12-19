@@ -8,7 +8,7 @@ public class Loops {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String[] args)
-	{   int loopOption=2;
+	{   int loopOption=1;
 		System.out.println("Enter the number to print its mulple of first 10 number");
 		Scanner input = new Scanner(System.in);
 		int num= input.nextInt();
