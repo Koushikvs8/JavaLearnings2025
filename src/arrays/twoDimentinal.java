@@ -9,9 +9,9 @@ class twoDimentinal {
 		{ 
 			for(int j=0; j<a[i].length; j++)
 			{
-				System.out.println(a[i][j]);
+				System.out.print(a[i][j]);
 			}
-			
+			System.out.println();
 		}
 		
 		
