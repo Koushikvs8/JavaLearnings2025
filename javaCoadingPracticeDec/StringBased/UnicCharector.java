@@ -22,6 +22,6 @@ public class UnicCharector {
 		{
 			join+=c;
 		}
-		System.out.println(join);
+		System.out.println(join );
 	}}
 

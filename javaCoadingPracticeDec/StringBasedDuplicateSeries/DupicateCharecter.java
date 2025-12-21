@@ -10,6 +10,7 @@ public class DupicateCharecter {
 
 	public static void m1(String sen)
 	{
+		String update="";
 		
 		Map<Character, Integer>  ch=new HashMap<Character, Integer>();
 		for(int i=0; i<sen.length();i++)
@@ -54,6 +55,15 @@ public class DupicateCharecter {
 		}
 		
 		}
+		
+		
+	   
+		
+	      StringBuilder rev=new StringBuilder(update);
+	      
+		
+	System.out.println(" the dupliacted removed >"+value);
+	System.out.println(" the reversed >"+rev.reverse());
 	}
 	
 	
@@ -63,7 +73,7 @@ public class DupicateCharecter {
 	
 	public static void main(String[] args)
 	{
-		String sen="java is java becouse is java is program to run java";
+		String sen="koushik";
 		m1(sen);
 	//	m2(sen);
 		
